@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    z-index: 1;
+}
+.franchise .bg-video{
+    height: 115vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.franchise video{
+    height: 100%;
+    width: 100%;
+}
+.franchise .textbox{
+    height: 50vh;
+    width: 70%;
+    /* border: solid 1px black; */
+    position: absolute;
+    top: 45vh;
+}
+.franchise .textbox{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.franchise .textbox h1{
+    font-size: 60px;
+}
+.franchise .textbox h3{
+    font-size: 20px;
+}
+.franchise .textbox button{
+    border: none;
+    margin-top: 5%;
+    height: 12%;
+    width: 20%;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: crimson;
+    cursor: pointer;
+}
+.watch{
+    margin: auto;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.franchise .watch img{
+    height: 23px;
+    width: 23px;
+}
+.franchise .watch p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+.container2{
+    color: whitesmoke;
+    height: 110vh;
+    width: 100%;
+}
+.container2 .con1{
+    margin-top: 3%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container2 .con1 .motto{
+    height: 40px;
+    width: 30%;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container2 .con1 .t1{
+    height: 50px;
+    width: 30%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.container2 .con1 .t2{
+    height: 50px;
+    width: 40%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.line{
+    width: 85%;
+    border: solid 2px rgba(231, 33, 218, 0.86);
+    margin: auto;
+}
+.con2 .h1{
+    color:black;
+    text-transform: capitalize;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.con2 .h3{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.con2 .h3 .c1{
+    height: 320px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    gap: 20px;
+}
+.con2 .c1 img{
+    width: 100%;
+    height: 30%;
+}
+.con2 .c1 h1{
+    font-size: 21px;
+}
+.con2 .c1 p{
+    align-items: center;
+    font-size: 16px;
+}
+
+.cont3{
+    height: 650px;
+    margin-top: 3%;
+    text-align: center;
+}
+.cont3 h1{
+    color: black;
+}
+.cont3 p{
+    color: black;
+    margin-top: 1%;
+}
+.franchise{
+    height: 223vh;
+}
+.container-form{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-con1{
+    height: 530px;
+    width: 70%;
+    background: url('./Images/bg2.png') no-repeat center/cover;
+}
+.form-con2{
+    border: solid 1px black;
+    background: rgba(128, 128, 128, 0.519);
+    border-radius: 10px;
+    height: 530px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont3 .form-con2 input{
+    height: 40px;
+    width: 320px;
+    border-radius: 8px;
+    border: solid 1px black;
+    margin-top: 20px;
+}
+.cont3 .form-con2 label{
+    display: block;
+}
+.cont3 .form-con2 button{
+    height: 40px;
+    width:120px;
+    display: block;
+    border-radius: 12px ;
+    border: none;
+    color: white;
+    background: crimson;
+}
+
+.foot{
+    height: 120px;
+    width: 100%;
+}
+.foot .title1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.foot .con1{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  font-size: 15px;
+  background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+  box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+} 
