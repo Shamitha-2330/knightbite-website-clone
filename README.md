@@ -6,7 +6,7 @@ A front-end recreation of the KnightBite website, built with HTML and CSS to pra
 
 ## Screenshot
 
-![KnightBite home page](screenshots/home.png)
+![KnightBite home page](Images/website_screenshot.png)
 
 ## About
 
